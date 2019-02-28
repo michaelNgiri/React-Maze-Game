@@ -1,29 +1,25 @@
 {
-  "name": "react-maze-game",
-  "version": "1.0.0",
-  "description": "React Maze Game",
-  "main": "app.js",
+  "name": "new",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5"
+  },
   "scripts": {
-    "test": "test"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/michaelNgiri/React-Maze-Game.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [
-    "Maze",
-    "Maze",
-    "Game",
-    "React",
-    "Maze",
-    "Game",
-    "React",
-    "ReactJS"
-  ],
-  "author": "Michael Ngiri",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/michaelNgiri/React-Maze-Game/issues"
-  },
-  "homepage": "https://github.com/michaelNgiri/React-Maze-Game#readme"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
